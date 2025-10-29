@@ -1,0 +1,22 @@
+#splash {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: #07070a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1000;
+}
+
+#enter-btn {
+	width: 800px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+#enter-btn:hover {
+	transform: scale(1.05);
+}
