@@ -25,6 +25,21 @@
 #enter-btn:hover {
 	transform: scale(1.05);
 }
+@media (max-width: 600px) {
+  .main-nav a {
+    font-size: 2rem;  /* smaller nav text */
+    gap: 1.5rem;
+  }
+
+  .slitty {
+    font-size: 2rem;  /* smaller headings */
+  }
+
+  #enter-btn {
+    width: 90%;       /* splash button scales on tiny screens */
+  }
+}
+
 .site-title{
 	text-align: center;
 	color: #ffffff;
@@ -135,6 +150,7 @@ body {
 	background-color:#000000;
 	color: #ffffff;
 }
+
 
 
 
