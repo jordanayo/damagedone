@@ -133,7 +133,7 @@
 	font-size: 3rem;
 	font-weight: 600;
 	transition: color 0.3s ease, text-shadow 0.3s ease;
-	text-shadow: 0 0 8px #ff4c4c;
+	text-shadow: 1 1 2px #ff4c4c;
 	
 }
 .video-container {
@@ -156,6 +156,7 @@ body {
 	background-color:#000000;
 	color: #ffffff;
 }
+
 
 
 
