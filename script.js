@@ -2,6 +2,7 @@ const splash = document.getElementById('splash');
 const enterBtn = document.getElementById('enter-btn');
 const videoContainer = document.querySelector('.video-container');
 const slitty = document.querySelector('.slitty');
+const topstuff = document.getElementById('topsy');
 
 
 enterBtn.addEventListener('click', () => {
@@ -14,6 +15,10 @@ enterBtn.addEventListener('click', () => {
 		videoContainer.style.transform = 'scale(1)';
 		slitty.style.opacity = '1';
 		slitty.style.transform = 'scale(1)';
+		topstuff.style.transform = 'translateY(0)';
+		topstuff.style.opacity = '1';
+	
+		
 	}, 600);
 
 });
