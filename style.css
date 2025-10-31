@@ -10,7 +10,11 @@
 	justify-content: center;
 	z-index: 1000;
 }
-
+#topsy {
+	transform: translateY(-50px);
+	opacity: 0;
+	transition: transform 0.6s ease, opacity 0.6s ease;
+}
 #enter-btn {
 	width: 800px;
 	cursor: pointer;
