@@ -27,16 +27,16 @@
 }
 @media (max-width: 600px) {
   .main-nav a {
-    font-size: 2rem;  /* smaller nav text */
+    font-size: 2rem; 
     gap: 1.5rem;
   }
 
   .slitty {
-    font-size: 2rem;  /* smaller headings */
+    font-size: 2rem;  
   }
 
   #enter-btn {
-    width: 90%;       /* splash button scales on tiny screens */
+    width: 90%;    
   }
 }
 
@@ -150,6 +150,7 @@ body {
 	background-color:#000000;
 	color: #ffffff;
 }
+
 
 
 
