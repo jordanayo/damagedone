@@ -25,26 +25,34 @@
 #enter-btn:hover {
 	transform: scale(1.05);
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .site-title {
+    font-size: 2rem;
+  }
+
   .main-nav a {
-    font-size: 2rem; 
-    gap: 1.5rem;
-  }
-
-  .slitty {
-    font-size: 2rem;  
-  }
-
-  #enter-btn {
-    width: 90%;    
+    font-size: 1.8rem;
+    gap: 1.5rem; 
   }
 }
+
+@media (max-width: 480px) {
+  .site-title {
+    font-size: 1.5rem;
+  }
+
+  .main-nav a {
+    font-size: 1.4rem;
+    gap: 1rem;
+  }
+}
+
 
 .site-title{
 	text-align: center;
 	color: #ffffff;
 	font-family: "Coral Pixels", serif;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	margin: 1rem 0 0;
 	font-weight: 500;
 	letter-spacing: 1px;
@@ -109,7 +117,7 @@
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: "Coral Pixels", serif;
-	font-size: 3rem;
+	font-size: 2.5rem;
 	font-weight: 600;
 	transition: color 0.3s ease, text-shadow 0.3s ease;
 	text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);
@@ -150,6 +158,7 @@ body {
 	background-color:#000000;
 	color: #ffffff;
 }
+
 
 
 
